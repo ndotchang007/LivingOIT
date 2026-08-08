@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Home | Living Oit</title>
+    <meta
+      name="description"
+      content="Explore Living Oit, a trusted resource for peer-led food allergy care insights."
+    />
+    <link rel="icon" href="assets/images/logo.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700&family=Onest:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to Main Content</a>
+
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="index.html">
+          <img src="assets/images/logo.png" alt="Living OIT logo" />
+          <span>Living OIT</span>
+        </a>
+        <button class="nav-toggle" type="button" aria-label="Open menu" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+        <nav class="site-nav" aria-label="Site">
+          <a class="active" href="index.html">Home</a>
+          <a href="about.html">About Us</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+        <a class="btn btn-primary btn-sm header-cta" href="resources.html">Resources</a>
+      </div>
+    </header>
+
+    <main id="main">
+      <section class="hero">
+        <div class="container hero-grid">
+          <div class="reveal">
+            <h1>LivingOIT: A peer perspective on food allergy care</h1>
+            <p class="lede">
+              At LivingOIT, we aim to bring teen voices into conversations about food allergy
+              treatment. Through our peer-led resource library, we provide families with insights
+              grounded in lived experience, helping people navigate medical decisions with
+              confidence.
+            </p>
+          </div>
+          <div class="hero-media reveal">
+            <img
+              src="assets/images/hero.jpg"
+              alt="Allergy medication in front of everyday snack foods"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section class="journey-section">
+        <div class="container">
+          <h2 class="section-title section-title-center reveal">Navigating Your OIT Journey</h2>
+
+          <div class="journey-bento reveal">
+            <a
+              class="bento-card bento-feature"
+              href="https://elestoque.org/2025/07/17/opinion/community-members-weigh-the-risks-of-oral-immunotherapy/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <div class="bento-feature-media">
+                <img src="assets/images/card-community.jpg" alt="" />
+              </div>
+              <div class="bento-feature-copy">
+                <h3>Community members weigh the risks of oral immunotherapy</h3>
+                <p>Oral immunotherapy is a promising yet complex treatment for food allergies</p>
+              </div>
+            </a>
+
+            <a class="bento-card bento-reflections" href="resources.html#reflections">
+              <div class="bento-reflections-copy">
+                <h3>OIT Reflections</h3>
+                <p>
+                  Our team reflects on our experiences with OIT and allergies. Read personal
+                  narratives here
+                </p>
+              </div>
+              <img class="bento-logo" src="assets/images/logo.png" alt="" />
+            </a>
+
+            <a class="bento-card bento-qa" href="faq.html">
+              <h3><span class="text-underline">Q&amp;A</span></h3>
+              <p>Some of the most common questions about oral immunotherapy answered.</p>
+            </a>
+
+            <a class="bento-card bento-curated" href="resources.html">
+              <h3>Curated resources</h3>
+              <p>Explore videos and articles our team personally found insightful.</p>
+            </a>
+          </div>
+
+          <div class="journey-cta reveal">
+            <a class="link-access" href="resources.html">Access Resources</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="home-contact-section">
+        <div class="home-contact-layout">
+          <div class="form-shell reveal">
+            <div class="form-panel">
+              <form class="form home-contact-form" data-contact-form>
+                <div class="form-row">
+                  <div class="field">
+                    <label for="first-name">First name</label>
+                    <input id="first-name" name="firstName" type="text" autocomplete="given-name" />
+                  </div>
+                  <div class="field">
+                    <label for="last-name">Last name</label>
+                    <input id="last-name" name="lastName" type="text" autocomplete="family-name" />
+                  </div>
+                </div>
+                <div class="field">
+                  <label for="email">Email address <span class="req">*</span></label>
+                  <input id="email" name="email" type="email" required autocomplete="email" />
+                </div>
+                <div class="field">
+                  <label for="journey"
+                    >Tell us about your immunotherapy journey <span class="req">*</span></label
+                  >
+                  <textarea
+                    id="journey"
+                    name="journey"
+                    required
+                    placeholder="Please share details about your immunotherapy experience, questions, or concerns..."
+                  ></textarea>
+                </div>
+                <button class="btn btn-primary btn-block" type="submit">SUBMIT</button>
+                <div class="form-status" role="status" aria-live="polite"></div>
+              </form>
+            </div>
+          </div>
+
+          <aside class="reach-panel reveal">
+            <h2>Reach out</h2>
+            <p>
+              Access our peer support portal and connect with others navigating oral
+              immunotherapy.
+            </p>
+          </aside>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <a class="footer-brand" href="index.html">
+          <img src="assets/images/logo.png" alt="" />
+          <span>Living OIT</span>
+        </a>
+        <p class="footer-copy">© 2026 Living OIT. All rights reserved.</p>
+        <div class="social">
+          <a
+            class="social-instagram"
+            href="https://www.instagram.com/livingoit/"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Living OIT on Instagram"
+          >
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path
+                d="M7 2h10a5 5 0 0 1 5 5v10a5 5 0 0 1-5 5H7a5 5 0 0 1-5-5V7a5 5 0 0 1 5-5zm0 2a3 3 0 0 0-3 3v10a3 3 0 0 0 3 3h10a3 3 0 0 0 3-3V7a3 3 0 0 0-3-3H7zm11 1.5a1.25 1.25 0 1 1 0 2.5 1.25 1.25 0 0 1 0-2.5zM12 7a5 5 0 1 1 0 10 5 5 0 0 1 0-10zm0 2a3 3 0 1 0 0 6 3 3 0 0 0 0-6z"
+              />
+            </svg>
+          </a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
