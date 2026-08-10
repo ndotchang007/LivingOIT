@@ -107,6 +107,8 @@ p {
   top: 0;
   z-index: 100;
   box-sizing: border-box;
+  height: auto;
+  overflow: visible;
 }
 
 .header-inner {
@@ -617,7 +619,7 @@ p {
 .contact-page {
   background: var(--contact-bg);
   padding: 4rem 0;
-  min-height: calc(100vh - var(--header-h));
+  min-height: calc(100vh - var(--header-h) - var(--ticker-h));
   box-sizing: border-box;
   display: flex;
   align-items: center;
@@ -1003,6 +1005,9 @@ p {
   display: flex;
   align-items: center;
   overflow: hidden;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.18);
+  position: relative;
+  z-index: 2;
 }
 
 .news-ticker-inner {
@@ -1018,7 +1023,7 @@ p {
   flex-shrink: 0;
   font-family: var(--font-display);
   font-weight: 700;
-  font-size: 0.78rem;
+  font-size: 0.72rem;
   letter-spacing: 0.08em;
   text-transform: uppercase;
   padding-right: 0.85rem;
