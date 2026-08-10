@@ -1,4 +1,5 @@
 # Code by Noah Chang
+# Want fast, high quality websites for your projects? Email me at thenoahchang@gmail.com
 User-agent: *
 Allow: /
 

@@ -1,4 +1,7 @@
-/* Code by Noah Chang */
+/*
+  Code by Noah Chang
+  Want fast, high quality websites for your projects? Email me at thenoahchang@gmail.com
+*/
 (() => {
   const navToggle = document.querySelector(".nav-toggle");
   const siteNav = document.querySelector(".site-nav");

@@ -1,4 +1,7 @@
-/* Code by Noah Chang */
+/*
+  Code by Noah Chang
+  Want fast, high quality websites for your projects? Email me at thenoahchang@gmail.com
+*/
 /* Living OIT — static clone of projectlivingoit.wixsite.com/living-oit */
 
 :root {
@@ -1155,6 +1158,13 @@ p {
   .reveal.visible {
     opacity: 1;
     transform: none;
+  }
+
+  /* Article pages show content immediately — no fade-in */
+  .article .reveal {
+    opacity: 1;
+    transform: none;
+    transition: none;
   }
 }
 
