@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://ndotchang007.github.io/LivingOIT/sitemap.xml
+Sitemap: https://livingoit.org/sitemap.xml
