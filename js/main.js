@@ -1,3 +1,4 @@
+/* Code by Noah Chang */
 (() => {
   const navToggle = document.querySelector(".nav-toggle");
   const siteNav = document.querySelector(".site-nav");
