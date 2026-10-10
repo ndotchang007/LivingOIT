@@ -1,0 +1,9 @@
+
+{
+  "mcpServers": {
+    "pdf-mcp": {
+      "command": "/Users/noahchang/.local/bin/pdf-mcp",
+      "args": []
+    }
+  }
+}
